@@ -17,6 +17,14 @@ let products = {
         detail: "Perfume Shop Web page",
         link:"perfume/perfume.html",
       },
+      {
+        id:3,
+        productName: "Tic Tac Toe",
+        category: "Animation",
+        image: "img/Tic Tac Toe.png",
+        detail: "Tic Tac Toe Game",
+        link:"https://vijaynarasingam.github.io/Tic-Tac-Toe",
+      },
 
     ],
   };
