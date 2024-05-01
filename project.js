@@ -6,7 +6,7 @@ let products = {
         category: "Login_page",
         image: "img/login_page_1.jpg",
         detail: "Border Line Animation",
-        link:"login page/Login.html",
+        link:"loginpage/Login.html",
         
       },
       {
