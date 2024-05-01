@@ -245,6 +245,12 @@ text-transform: uppercase;
     color: #00e1ff;
 }
 
+.sub-text{
+
+    font-size: 1.4em;
+
+}
+
 
 .tab_titles{
     display: flex;
@@ -301,11 +307,7 @@ text-transform: uppercase;
     font-size: 0.8em;
     color: #fff;
 }
-.sub-text{
-    color: green;
-    width: fit-content;
 
-}
 
 /* ------------services-------------------- */
 
@@ -358,7 +360,7 @@ text-transform: uppercase;
 }
 
 .services-list div p{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .services-list div:hover{

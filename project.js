@@ -20,7 +20,7 @@ let products = {
       {
         id:3,
         productName: "Tic Tac Toe",
-        category: "Animation",
+        category: "Web_App",
         image: "img/Tic Tac Toe.png",
         detail: "Tic Tac Toe Game",
         link:"https://vijaynarasingam.github.io/Tic-Tac-Toe",
