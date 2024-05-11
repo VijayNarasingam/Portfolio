@@ -658,7 +658,7 @@ form .btn.btn2{
     display: flex;
     justify-content: space-around;
     width: 80%;
-    
+    margin: 0 40px;
 }
 
 .language .container1 img{
