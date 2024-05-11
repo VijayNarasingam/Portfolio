@@ -209,7 +209,7 @@ text-transform: uppercase;
 /*---------------------------About--------------------------------------------------------------------*/
 
 #about{
-    padding: 80px;
+    padding: 40px 80px 0 80px;
     color: #fff;
     padding-bottom: 0px;
 
@@ -233,6 +233,7 @@ text-transform: uppercase;
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
+    margin-top: 5vw;
 }
 
 .about-col-2{
@@ -307,12 +308,27 @@ text-transform: uppercase;
     font-size: 0.8em;
     color: #fff;
 }
+/* --------------language-------------- */
+.language{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 42vw;
+    width: 50%;
+    margin-top: vw;
+}
 
+.language .container1 img{
+    width: 6vw;
+    height: 6vw;
+}
+
+.language .container2 img{
+    height: 6vw;
+}
 
 /* ------------services-------------------- */
 
 #services{
-    padding: 30px 0;
     color: #fff;
 
 }
@@ -635,6 +651,23 @@ form .btn.btn2{
     font-size: 3vh;
     margin: 0 5vh 0 5vh ;
     
+}
+
+/* -------------lang------------------ */
+.language{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 40px;
+}
+
+.language .container1 img{
+    width: 8vw;
+    height: 8vw;
+}
+
+.language .container2 img{
+    height: 6vw;
 }
 
 }
