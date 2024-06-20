@@ -26,6 +26,15 @@ let products = {
         link:"https://vijaynarasingam.github.io/Tic-Tac-Toe",
       },
 
+      {
+        id:4,
+        productName: "DreamEscape Travels",
+        category: "web_page",
+        image: "img/DreamEscapeTravels.png",
+        detail: "Travels web Page",
+        link:"https://vijaynarasingam.github.io/DreamEscapeTravels/",
+      },
+
     ],
   };
 
