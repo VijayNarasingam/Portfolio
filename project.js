@@ -29,7 +29,7 @@ let products = {
       {
         id:4,
         productName: "DreamEscape Travels",
-        category: "web_page",
+        category: "Web_page",
         image: "img/DreamEscapeTravels.png",
         detail: "Travels web Page",
         link:"https://vijaynarasingam.github.io/DreamEscapeTravels/",
