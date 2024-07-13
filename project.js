@@ -35,6 +35,15 @@ let products = {
         link:"https://vijaynarasingam.github.io/DreamEscapeTravels/",
       },
 
+      {
+        id:5,
+        productName: "Yugan Photography",
+        category: "Web_page",
+        image: "img/yugan.png",
+        detail: "Photographer web page",
+        link:"https://vijaynarasingam.github.io/yugan_photography/",
+      },
+
     ],
   };
 
