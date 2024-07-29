@@ -228,6 +228,7 @@ text-transform: uppercase;
 
 .about-col-1{
     flex-basis: 35%;
+    
 }
 
 .about-col-1 img{
@@ -485,6 +486,10 @@ text-transform: uppercase;
     color: #ff004f;
     margin-right: 15px;
     font-size: 25px;
+}
+
+.contact-left .sub-title {
+    font-size: 3rem;
 }
 
 
