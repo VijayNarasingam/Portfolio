@@ -54,6 +54,7 @@ let products = {
     let card = document.createElement("div");
     //Card should have category and should stay hidden initially
     card.classList.add("card", i.category, "hide");
+    
     let cardLink = document.createElement("a");
     cardLink.setAttribute("href", i.link); 
     // Image div
