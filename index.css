@@ -544,36 +544,6 @@ text-transform: uppercase;
 
 }
 
-.contact-right form{
-    width: 100%;
-}
-
-form input,form textarea{
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #1c1535;
-    padding: 15px;
-    margin: 15px 0;
-    color: #fff;
-    font-size: 10px;
-    border-radius: 6px;
-}
-
-.contact-right form input:focus{
-    background: #1c1535;
-}
-.contact-right form input:active{
-    background: #1c1535;
-}
-
-form .btn.btn2{
-    padding: 10px 50px;
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
 .copyright{
     width: 100%;
     text-align: center;
