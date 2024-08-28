@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #1a1a1a;
+    color: #FFFFFF;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+
+[data-aos="wipe-init"]{
+    position: absolute;
+    background-color: #fff;
+    transform: scaleX(0);
+    animation: animate 1s ease-in-out alternate;
+}
+
+@keyframes animate {
+    0%{
+        transform-origin: right;
+        transform: scaleX(0);
+    }
+    100%{
+        transform-origin: right;
+        transform: scaleX(1);
+    }
+    100%{
+        transform-origin: right;
+        transform: scaleX(0);
+    }
+    0%{
+        transform-origin: right;
+        transform: scaleX(1);
+    }
+}
+
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo{
+    margin-left: 2% ;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #fff;
+
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+}
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-right: 28vw;
+}
+
+nav ul li{
+    margin: 0 20px;
+    font-weight: 300;
+    color: #FFFFFF ;
+    cursor:pointer;
+    text-decoration: none;
+
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+
+/* details*/
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16vw;
+    font-size: 5vw;
+    word-spacing: 4px;
+}
+
+.resumeDownload{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+
+    a{
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+
+.resume{
+    background-color: #222222;
+    border: 0.5px solid #bdbcbc;
+    margin: 5% 10%;
+    display: flex;
+    padding: 3%;
+    gap: 5vw;
+    font-size: 1.2vw;
+}
+
+.topic{
+    font-size: 1.2vw;
+    color: #aeaeae;
+    letter-spacing: 0.2vw;
+    margin-top: 3vw;   
+    margin-bottom: 2vw;
+
+}
+
+.title{
+    margin-top: 2vw;
+}
+
+.phone, .webPageLink, .link{
+    color: #e14637;
+}
+
+.toolsUse{
+    margin-top: 3vw;
+}
+
+.toolsUse ul {
+    margin-top: 2vw;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 1.1vw;
+
+}
+
+
+
+
+.resume .resumeLeft{
+    flex-basis: 65%;
+
+
+}
+
+.resume .resumeLeft .resumeName {
+    font-size: 3vw;
+    font-weight: 400;
+    padding-bottom: 2vw;
+}
+
+
+
+
+
+.resume .resumeRight{
+    flex-basis: 35%;
+    
+}
+
+
+
+/* -----------------------837px-------------------------------------------------- */
+
+/* tab */
+
+@media only screen and (max-width: 834px){
+
+
+    nav ul{
+        position:absolute;
+        width: 100%;
+        justify-content: center;
+        left: 0;
+        top: 100%;
+        text-align: center;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-hight 0.5s;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+    a:active {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+
+
+    nav .logo{
+        width: 40vw;
+        padding-top: 10px;
+        font-size: 3vw;
+    }
+    nav ul li{
+        margin: 20px;
+    }
+    .menu-icon{
+        display: block;
+        width:60px ;
+        height: 30px;
+        padding-top: 10px;
+        padding-right: 20px;
+
+    }
+    
+    .show-menu{
+        max-height: 60px;
+    }
+
+
+
+
+    
+}
+
+/* mobile */
+@media only screen and (max-width: 600px){
+
+    nav{
+        padding-top: 10px;
+    }
+    nav .logo{
+        width: 40vw;
+        padding-top: 10px;
+        font-size: 3vw;
+    }
+    nav ul{
+        padding: 9px 10px;
+
+    }
+    nav ul li{
+        display: flex;
+        justify-content: center;
+        font-size: 3vw;
+        padding-left: 10%;
+        align-items: center;
+        margin: 9px;
+    }
+    .menu-icon{
+        display: block;
+        width:60px ;
+        height: 30px;
+        padding-top: 10px;
+        padding-right: 20px;
+
+    }
+    
+    .show-menu{
+        max-height: 60px;
+        
+    }
+
+
+ .name{
+    padding-top: 40%;
+ }
+
+ .resumeDownload{
+    font-size: 3vw;
+ }
+
+ .resume{
+    flex-direction: column;
+    margin: 5% 5%;
+ }
+
+ .topic{
+    font-size: 4vw;
+ }
+ .title{
+    margin-top: 2vw;
+    font-size: 4vw;
+}
+.phone, .webPageLink, .link{
+    font-size: 3vw;
+}
+.resume .resumeLeft .resumeName{
+    font-size: 5vw;
+}
+.detail{
+    font-size: 3vw;
+}
+.workDetails{
+    font-size: 2.5vw;
+}
+.toolsUse{
+    font-size: 2vw;
+}
+
+.toolsUse ul{
+    font-size: 2vw;
+}
+.mail{
+    font-size: 3vw;
+}
+
+.skillList{
+    font-size: 2.5vw;
+    padding-left: 5%;
+}
+
+}
