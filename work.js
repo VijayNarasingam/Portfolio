@@ -1,24 +1,7 @@
 let products = {
     data: [
       {
-        
-        productName: "Login page",
-        category: "Login_page",
-        image: "img/login_page_1.jpg",
-        detail: "Border Line Animation",
-        link:"loginpage/Login.html",
-        
-      },
-      {
-        id:2,
-        productName: "Perfume",
-        category: "Web_page",
-        image: "img/perfume.jpg",
-        detail: "Perfume Shop Web page",
-        link:"perfume/perfume.html",
-      },
-      {
-        id:3,
+        id:1,
         productName: "Tic Tac Toe",
         category: "Web_App",
         image: "img/Tic Tac Toe.png",
@@ -27,16 +10,7 @@ let products = {
       },
 
       {
-        id:4,
-        productName: "DreamEscape Travels",
-        category: "Web_page",
-        image: "img/1.png",
-        detail: "Travels web Page",
-        link:"https://vijaynarasingam.github.io/DreamEscapeTravels/",
-      },
-
-      {
-        id:5,
+        id:2,
         productName: "Yugan Photography",
         category: "Web_page",
         image: "img/yugan.png",
@@ -44,6 +18,16 @@ let products = {
         link:"https://vijaynarasingam.github.io/yugan_photography/",
       },
 
+      {
+        id:3,
+        productName: "DreamEscape Travels",
+        category: "Web_page",
+        image: "img/1.png",
+        detail: "Travels web Page",
+        link:"https://vijaynarasingam.github.io/DreamEscapeTravels/",
+      },
+
+      
     ],
   };
 
