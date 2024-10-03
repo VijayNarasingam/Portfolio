@@ -1,5 +1,16 @@
 let products = {
     data: [
+
+
+      {
+        id:4,
+        productName: "Toy Shop",
+        category: "Web_App",
+        image: "img/Tic Tac Toe.png",
+        detail: "toy store web site",
+        link:"https://vijaynarasingam.github.io/Toy-Store",
+      },
+
       {
         id:1,
         productName: "Tic Tac Toe",
