@@ -6,7 +6,7 @@ let products = {
         id:4,
         productName: "Toy Shop",
         category: "Web_App",
-        image: "img/Tic Tac Toe.png",
+        image: "img/toy-shop.png",
         detail: "toy store web site",
         link:"https://vijaynarasingam.github.io/Toy-Store",
       },
