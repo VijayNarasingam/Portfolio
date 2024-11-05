@@ -120,12 +120,17 @@ nav ul li{
 
 .right .photo{
 -webkit-mask-repeat: no-repeat;
-width: 100%;
 
 }
 
 .one{
     -webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMTcuNywtMTUuNEMyNC4zLC0xMS4yLDMxLjgsLTUuNiwzMS40LC0wLjRDMzEsNC44LDIyLjcsOS43LDE2LjIsMTMuN0M5LjcsMTcuOCw0LjgsMjEuMSwtMy4zLDI0LjRDLTExLjQsMjcuNywtMjIuNywzMC45LC0yNi41LDI2LjhDLTMwLjIsMjIuNywtMjYuMiwxMS40LC0yNC4xLDIuMUMtMjEuOSwtNy4xLC0yMS42LC0xNC4yLC0xNy45LC0xOC40Qy0xNC4yLC0yMi42LC03LjEsLTIzLjgsLTAuOCwtMjMuMUM1LjYsLTIyLjMsMTEuMiwtMTkuNSwxNy43LC0xNS40WiIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIiBzdHJva2Utd2lkdGg9IjAiIHN0eWxlPSJ0cmFuc2l0aW9uOiAwLjNzOyIgc3Ryb2tlPSJ1cmwoI3N3LWdyYWRpZW50KSI+PC9wYXRoPgogICAgICAgICAgICAgIDwvc3ZnPg==); 
+    background-image: url('img/vijaynarasingam.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
 }
 
 .detail {
@@ -230,6 +235,9 @@ width: 100%;
 
 @media only screen and (max-width: 834px){
 
+    body{
+        overflow: auto;
+    }
 
     nav ul{
         position:absolute;
@@ -309,11 +317,36 @@ width: 100%;
     margin-left: 80%;
 }
 
+.all{
+    display: block;
+}
+
+
+
+.right{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.one {
+    -webkit-mask-image: none;
+    background-image: url('img/vijaynarasingamx600px.jpg');
+    width: 50%;
+    height: 50vh;
+    border-radius: 20px;
+}
     
 }
 
 /* mobile */
 @media only screen and (max-width: 600px){
+
+    body{
+        overflow: auto;
+    }
 
 nav{
     padding-top: 10px;
@@ -378,6 +411,27 @@ nav{
     }
     
 
+    .all{
+        display: block;
+    }
+
+
+
+    .right{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .one {
+        -webkit-mask-image: none;
+        background-image: url('img/vijaynarasingamx600px.jpg');
+        width: 50%;
+        height: 50vh;
+        border-radius: 20px;
+    }
 
 }
 
