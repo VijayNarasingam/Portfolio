@@ -3,7 +3,7 @@ let products = {
 
 
       {
-        id:4,
+        id:5,
         productName: "Toy Shop",
         category: "Web_App",
         image: "img/toy-shop.png",
@@ -12,7 +12,16 @@ let products = {
       },
 
       {
-        id:1,
+        id:4,
+        productName: "Bright Money",
+        category: "Web_page",
+        image: "img/bright_money.jpg",
+        detail: "Finance ",
+        link:"https://vijaynarasingam.github.io/BrightMoney/",
+      },
+
+      {
+        id:3,
         productName: "Tic Tac Toe",
         category: "Web_App",
         image: "img/Tic Tac Toe.png",
@@ -30,7 +39,7 @@ let products = {
       },
 
       {
-        id:3,
+        id:1,
         productName: "DreamEscape Travels",
         category: "Web_page",
         image: "img/1.png",
