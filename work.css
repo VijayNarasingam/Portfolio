@@ -191,7 +191,6 @@ nav ul li{
   .image-container img {
     max-width: 100%;
     object-fit: contain;
-    height: 20em;
   }
   .container {
     padding-top: 2em;
